@@ -5,6 +5,7 @@ ElementUI的Table表格，官方网站上提供了很多样式，但是在日常
 官方对Table相关的Attributes介绍的不是很详细，对于不太熟悉人，很难搞明白，实际操作起来很难受。
 
 下面就关于**Table-column**中**render-header**的运用，稍作说明,具体请移步此项目文件中查看。
+
 |参数|说明|类型|可选值|默认值|
 |-|-|-|-|-|
 |render-header|列标题 Label 区域渲染使用的 Function|Function(h, { column, $index })|—|—|
@@ -57,4 +58,20 @@ renderHeader (h, { column, $index }) {
     })
   ])
 }
+```
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
 ```
